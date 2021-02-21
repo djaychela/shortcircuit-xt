@@ -74,7 +74,7 @@ You know the drill:
 ```
 git submodule update --init --recursive
 cmake -Bbuild
-cmake --build build --config Release --target ShortCircuit3_Standalone
+cmake --build build --config Release --target ShortcircuitXT_Standalone
 ```
 
 This will build the rudimentary standalone app. Other targets exist for Python as a wrapper, as well as `sc3-test`
